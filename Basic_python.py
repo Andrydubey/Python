@@ -329,8 +329,68 @@
 #   tup2 = tup[1:4]
 #   print(tup2)
 
+
 # day25
-tuple1 = (0,1,2,3,4,5,6,1,2,3)
-tuple1.count(3)
-tuple1.index(3)
-tuple1.index(3,2)
+# tuple1 = (0,1,2,3,4,5,6,1,2,3)
+# tuple1.count(3)
+# tuple1.index(3)
+# tuple1.index(3,2)
+# A = ("Hello","Everyone","He","is","Ram")
+# temp = list(A)
+# temp.append("Pratham")
+# temp.pop(4)
+# temp[2] = "Ram"
+# A = tuple(temp)
+# print(A)
+# B =("shivam","Vaibhav","Ranveer","Rohit")
+# AB= A+B
+# print(AB)
+# tuple1 =(0,1,3,1,3,3,4,2,2)
+# res = tuple1.count(3)
+# print(res)
+# res = tuple1.index(3)
+# print( res)
+# res = tuple1.index(3,4,8)
+# print(res)
+# res = len(tuple1)
+# print(res)
+
+#day26
+# import time
+# timestamp = time.strftime('%H:%M:%S')
+# print(timestamp)
+# timestamp = time.strftime('%H')
+# print(timestamp)
+# timestamp = time.strftime('%M')
+# print(timestamp)
+# timestamp = time.strftime('%s')
+# print(timestamp)
+
+# a= int(input("Enter time"))
+#  print("Time is:",a)
+#  if( a>=4 and a<=12):
+#    print("Good Morning")
+#  elif(a>=12 and a<=16):
+#    print("Good Afternoon")
+#  elif(a>=16 and a<=18):
+#    print("Good Evening")
+#  elif(a>=18 and a<=24):
+#    print("Good Night")
+#  else:
+#    print("Are you single??")
+
+
+import time
+
+t= time.strftime('%H:%M:%S') 
+print(t)
+int(time.strftime('%H'))
+t = int(input("Enter the Time"))
+if(t>=0 and t<12):
+  print("Good Morning")
+elif(t>=12 and t<16):
+  print("Good Afternoon")
+elif(t>=16 and t<18):
+  print("Good Night")
+elif(t>=18 and t<24):
+  print("Are you single??")
